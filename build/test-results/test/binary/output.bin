@@ -1,0 +1,1 @@
+Ç18:09:01.683 [Test worker] INFO hello.jdbc.connection.DBConnectionUtil - get connection=conn0: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection

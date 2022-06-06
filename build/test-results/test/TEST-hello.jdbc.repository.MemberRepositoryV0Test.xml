@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.jdbc.repository.MemberRepositoryV0Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-06T07:07:24" hostname="charlies-MacBook-Pro.local" time="0.259">
+  <properties/>
+  <testcase name="crud()" classname="hello.jdbc.repository.MemberRepositoryV0Test" time="0.259"/>
+  <system-out><![CDATA[16:07:24.786 [Test worker] INFO hello.jdbc.connection.DBConnectionUtil - get connection=conn0: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+16:07:24.826 [Test worker] INFO hello.jdbc.connection.DBConnectionUtil - get connection=conn1: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+16:07:24.832 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV0Test - findMember=Member(memberId=memberV6, money=10000)
+16:07:24.898 [Test worker] INFO hello.jdbc.connection.DBConnectionUtil - get connection=conn2: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+16:07:24.900 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV0 - resultSize = 1
+16:07:24.912 [Test worker] INFO hello.jdbc.connection.DBConnectionUtil - get connection=conn3: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+16:07:24.924 [Test worker] INFO hello.jdbc.connection.DBConnectionUtil - get connection=conn4: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+16:07:24.932 [Test worker] INFO hello.jdbc.connection.DBConnectionUtil - get connection=conn5: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

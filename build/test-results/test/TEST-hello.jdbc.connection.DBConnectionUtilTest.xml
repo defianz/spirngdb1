@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.jdbc.connection.DBConnectionUtilTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-15T09:09:01" hostname="charlies-MacBook-Pro.local" time="0.149">
-  <properties/>
-  <testcase name="connection()" classname="hello.jdbc.connection.DBConnectionUtilTest" time="0.149"/>
-  <system-out><![CDATA[18:09:01.683 [Test worker] INFO hello.jdbc.connection.DBConnectionUtil - get connection=conn0: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

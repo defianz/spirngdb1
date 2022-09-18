@@ -1,51 +1,45 @@
-`17:53:42.620 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
-{17:53:42.632 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension................................false
-q17:53:42.632 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit................................true
-n17:53:42.633 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - catalog................................none
-x17:53:42.634 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql................................none
-z17:53:42.634 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery................................none
-y17:53:42.634 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout................................30000
-q17:53:42.634 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSource................................none
-z17:53:42.635 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName................................none
-u17:53:42.636 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI................................none
-ä17:53:42.637 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties................................{password=<masked>}
-v17:53:42.637 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................................none
-Å17:53:42.637 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName................................none
-z17:53:42.637 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties................................{}
-z17:53:42.637 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry................................none
-t17:53:42.638 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout................................600000
-}17:53:42.638 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout................................1
-~17:53:42.638 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries................................false
-ù17:53:42.638 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl................................jdbc:h2:tcp://localhost/~/private/springdb1/h2/test
-q17:53:42.638 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime................................0
-z17:53:42.638 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold................................0
-u17:53:42.639 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime................................1800000
-t17:53:42.639 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize................................10
-u17:53:42.640 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry................................none
-|17:53:42.640 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory................................none
-p17:53:42.641 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle................................10
-s17:53:42.641 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - password................................<masked>
-y17:53:42.641 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - poolName................................"HikariPool-1"
-p17:53:42.642 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - readOnly................................false
-v17:53:42.642 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans................................false
-x17:53:42.642 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor................................none
-m17:53:42.642 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - schema................................none
-x17:53:42.642 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory................................internal
-~17:53:42.642 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation................................default
-o17:53:42.643 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - username................................"sa"
-x17:53:42.643 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout................................5000
-`17:53:42.643 [Test worker] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-∑17:53:42.670 [Test worker] DEBUG com.zaxxer.hikari.util.DriverDataSource - Loaded driver with class name org.h2.Driver for jdbcUrl=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test
-¨17:53:42.762 [Test worker] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA
-e17:53:42.764 [Test worker] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-Ñ17:53:42.766 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=HikariProxyConnection@243575009 wrapping conn0: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class com.zaxxer.hikari.pool.HikariProxyConnection
-Ö17:53:42.794 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=HikariProxyConnection@1799635803 wrapping conn0: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class com.zaxxer.hikari.pool.HikariProxyConnection
-É17:53:42.804 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1Test - findMember=Member(memberId=memberV100, money=10000)
-Ö17:53:42.861 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=HikariProxyConnection@1558395480 wrapping conn0: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class com.zaxxer.hikari.pool.HikariProxyConnection
-Z17:53:42.905 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - resultSize = 1
-ì17:53:42.870 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
-Ö17:53:42.912 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=HikariProxyConnection@2023917549 wrapping conn0: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class com.zaxxer.hikari.pool.HikariProxyConnection
-É17:53:42.936 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=HikariProxyConnection@58890945 wrapping conn0: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class com.zaxxer.hikari.pool.HikariProxyConnection
-æ17:53:42.956 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn1: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA
-Ö17:53:42.964 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=HikariProxyConnection@1149407083 wrapping conn0: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class com.zaxxer.hikari.pool.HikariProxyConnection
-æ17:53:42.979 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn2: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA
+√11:16:34.490 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+…11:16:34.578 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn0: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+√11:16:34.604 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+…11:16:34.610 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn1: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+√11:16:34.648 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+…11:16:34.659 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn2: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+√11:16:34.669 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+…11:16:34.671 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn3: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+√11:16:34.675 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+…11:16:34.678 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn4: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+Z11:16:34.679 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - resultSize = 1
+√11:16:34.688 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+…11:16:34.691 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn5: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+√11:16:34.693 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+…11:16:34.696 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn6: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+√11:16:34.708 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+…11:16:34.717 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn7: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+√11:16:34.718 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+…11:16:34.721 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn8: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+√11:16:34.722 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+…11:16:34.724 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn9: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+√11:16:34.739 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+ 11:16:34.744 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn10: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+√11:16:34.747 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+ 11:16:34.752 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn11: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+√11:16:34.754 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+ 11:16:34.756 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn12: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+√11:16:34.759 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+ 11:16:34.761 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn13: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+√11:16:34.763 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+ 11:16:34.766 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn14: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+Z11:16:34.767 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - resultSize = 1
+√11:16:34.767 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+ 11:16:34.771 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn15: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+Z11:16:34.775 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - resultSize = 1
+√11:16:34.776 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+ 11:16:34.778 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn16: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+√11:16:34.781 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+ 11:16:34.786 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn17: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+√11:16:34.790 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+ 11:16:34.793 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn18: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+√11:16:34.795 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+ 11:16:34.798 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn19: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+√11:16:34.800 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+ 11:16:34.803 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn20: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection

@@ -1,45 +1,16 @@
-Ã11:16:34.490 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
-É11:16:34.578 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn0: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
-Ã11:16:34.604 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
-É11:16:34.610 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn1: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
-Ã11:16:34.648 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
-É11:16:34.659 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn2: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
-Ã11:16:34.669 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
-É11:16:34.671 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn3: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
-Ã11:16:34.675 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
-É11:16:34.678 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn4: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
-Z11:16:34.679 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - resultSize = 1
-Ã11:16:34.688 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
-É11:16:34.691 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn5: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
-Ã11:16:34.693 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
-É11:16:34.696 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn6: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
-Ã11:16:34.708 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
-É11:16:34.717 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn7: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
-Ã11:16:34.718 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
-É11:16:34.721 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn8: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
-Ã11:16:34.722 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
-É11:16:34.724 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn9: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
-Ã11:16:34.739 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
-Ê11:16:34.744 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn10: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
-Ã11:16:34.747 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
-Ê11:16:34.752 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn11: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
-Ã11:16:34.754 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
-Ê11:16:34.756 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn12: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
-Ã11:16:34.759 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
-Ê11:16:34.761 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn13: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
-Ã11:16:34.763 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
-Ê11:16:34.766 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn14: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
-Z11:16:34.767 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - resultSize = 1
-Ã11:16:34.767 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
-Ê11:16:34.771 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn15: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
-Z11:16:34.775 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - resultSize = 1
-Ã11:16:34.776 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
-Ê11:16:34.778 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn16: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
-Ã11:16:34.781 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
-Ê11:16:34.786 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn17: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
-Ã11:16:34.790 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
-Ê11:16:34.793 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn18: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
-Ã11:16:34.795 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
-Ê11:16:34.798 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn19: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
-Ã11:16:34.800 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
-Ê11:16:34.803 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV1 - get connection=conn20: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+Ã11:48:09.437 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+É11:48:09.527 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV2 - get connection=conn0: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+Ã11:48:09.770 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+É11:48:09.811 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV2 - get connection=conn1: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+Ã11:48:10.064 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+Z11:48:10.102 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV2 - resultSize = 1
+Ã11:48:10.376 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+É11:48:10.407 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV2 - get connection=conn3: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+Ã11:48:10.701 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+É11:48:10.731 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV2 - get connection=conn4: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+Ã11:48:10.857 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+É11:48:10.889 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV2 - get connection=conn5: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+Ã11:48:11.093 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+É11:48:11.119 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV2 - get connection=conn6: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
+Ã11:48:11.434 [Test worker] DEBUG org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/private/springdb1/h2/test]
+É11:48:11.465 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV2 - get connection=conn7: url=jdbc:h2:tcp://localhost/~/private/springdb1/h2/test user=SA, class=class org.h2.jdbc.JdbcConnection
